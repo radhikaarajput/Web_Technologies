@@ -1,0 +1,34 @@
+
+function add()
+{
+    var a,b,c;
+    a=Number(document.getElementById("first").value);
+    b=Number(document.getElementById("second").value);
+    c= a + b;
+    document.getElementById("result").value= c;
+}
+
+function sub()
+{
+    var a,b,c;
+    a=Number(document.getElementById("first").value);
+    b=Number(document.getElementById("second").value);
+    c= a - b;
+    document.getElementById("result").value= c;
+}
+function mul()
+{
+    var a,b,c;
+    a=Number(document.getElementById("first").value);
+    b=Number(document.getElementById("second").value);
+    c= a * b;
+    document.getElementById("result").value= c;
+}
+function div()
+{
+    var a,b,c;
+    a=Number(document.getElementById("first").value);
+    b=Number(document.getElementById("second").value);
+    c= a / b;
+    document.getElementById("result").value= c;
+}

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="registration.css">
+        <script src="validationRegistration.js"></script>
+        
+    </head>
+
+    <body>
+    <div class='main'>
+        <div class='regform'>
+            <h1>Registration Form</h1>
+        </div>
+
+        
+        <form>
+            <div id= 'name'>
+                <h2 class='name'>First Name</h2>
+                <input class='fname' type='text' id='f' name='First_Name' placeholder="Enter First Name" required><br>
+                
+                <h2 class='name'>Last Name</h2>
+                <input class='fname' type='text' id-'l'name='First_Name' placeholder="Enter Last Name" required><br>
+            </div>
+
+            <h2 class='name'>Email</h2>
+                <input class='fname' type='text' name='Email' placeholder="Enter Email" required><br>
+
+            <h2 class='name'>Phone Number</h2>
+                <input class='fname' type='text' name='Phone_No' id='pno' placeholder="Enter Phone Number" maxlength="10"  required><br>
+            
+            <h2 class='name'>Address</h2>
+            <textarea class='add' rows="2" cols="40" required></textarea>
+            <br>
+
+            <h2 class='name'> favourite Pet</h2>
+            <select class='fname' name='Pet'>
+            <option disabled='disabled' selected='selected'>--Choose--</option>
+            <option>Dog</option> 
+            <option>Rabbit</option>  
+            <option>Cat</option>   
+            </select>
+            <br>   
+            
+            <div >
+                <h2 class='name'>Password</h2>
+                <input class='fname' type='password' name='Password' id='p' placeholder="Enter Password" maxlength="12" minlength="8" required><br>
+                
+                <h2 class='name'>Confirm Password</h2>
+                <input class='fname' type='password' name='C_Password' id='cp' placeholder="Confirm Password" maxlength="12" minlength="8" required><br>
+            </div>
+
+
+        <div style="background-color:#asghka"  align='center'>
+        <button class='name' type="submit" onclick="Validate()" >Submit</button><br><br>
+        </div>
+
+        </form>
+        </div>
+    </body>
+</html>

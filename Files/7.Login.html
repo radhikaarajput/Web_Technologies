@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="registration.css">
+        <script src="validationRegistration.js"></script>
+        
+    </head>
+
+    <body>
+    <div class='main'>
+        <div class='regform'>
+            <h1>Login</h1>
+        </div>
+
+        
+        <form>
+            
+            <h2 class='name'>Email</h2>
+                <input class='fname' type='text' name='Email' placeholder="Enter Email" required><br>
+
+           
+            
+            <div >
+                <h2 class='name'>Password</h2>
+                <input class='fname' type='password' name='Password' id='p' placeholder="Enter Password" maxlength="12" minlength="8" required><br>
+                
+                <h2 class='name'>Confirm Password</h2>
+                <input class='fname' type='password' name='C_Password' id='cp' placeholder="Confirm Password" maxlength="12" minlength="8" required><br>
+            </div>
+
+
+        <div style="background-color:#asghka"  align='center'>
+        <button class='name' type="submit" onclick="Validate()" >Submit</button><br><br>
+        </div>
+
+        </form>
+        </div>
+    </body>
+</html>
